@@ -6,7 +6,7 @@ interface SEOProps {
   keywords: string;
 }
 
-const SEO: React.FC<SEOProps> = ({ title, description, keywords }) => {
+const SEO: React.FC<SEOProps> = ({ title = 'Glazed $ Confused', description, keywords }) => {
   return (
     <Head>
       <title>{title}</title>

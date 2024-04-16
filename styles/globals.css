@@ -311,6 +311,9 @@
   font-size: 15px;
   letter-spacing: 0.8px;
 }
+.nextui-c-jeuecp.nextui-input::placeholder {
+  background-color: transparent !important; /* Replace #444 with your desired dark gray color code */
+}
 .nextui-c-hzQjrs.nextui-input-block-label {
   font-size: 1.2rem;
   font-weight: 600;
