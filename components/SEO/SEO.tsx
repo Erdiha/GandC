@@ -14,8 +14,6 @@ const SEO: React.FC<SEOProps> = ({ title = 'Glazed $ Confused', description, key
       <meta name="keywords" content={keywords} />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="robots" content="index, follow" />
-
-      {/* Add other SEO-related meta tags here */}
     </Head>
   );
 };
