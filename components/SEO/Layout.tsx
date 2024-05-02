@@ -10,21 +10,11 @@ type LayoutProps = {
   children: React.ReactNode;
 };
 
-const Layout: React.FC<LayoutProps> = ({
-  title,
-  description,
-  keywords,
-  children,
-}) => {
+const Layout: React.FC<LayoutProps> = ({ title, description, keywords, children }) => {
   return (
     <div>
       <Head>
-        <link
-          rel="icon"
-          sizes="180x180"
-          href="/homerdonut.png"
-          type="image/svg+xml"
-        />
+        <link rel="icon" sizes="180x180" href="/homerdonut.png" type="image/svg+xml" />
         <title>{title}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="apple-touch-icon" sizes="180x180" href="/homerdonut.png" />
