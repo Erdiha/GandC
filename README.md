@@ -24,6 +24,8 @@ npm run dev
 
 Give a ⭐️ if this project helped you!
 
+### LINK
+https://gand-c.vercel.app/home
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
